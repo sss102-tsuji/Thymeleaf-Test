@@ -10,7 +10,7 @@ public class SampleController {
 	
 	@RequestMapping("/hello")
 	public String hello(Model model) {
-		model.addAttribute("val", "コントローラのテキストです");
+		model.addAttribute("msg", "Spring VC");
 		return "hello";
 	}
 }
